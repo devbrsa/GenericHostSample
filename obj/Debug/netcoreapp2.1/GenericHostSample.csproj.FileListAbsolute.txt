@@ -1,0 +1,11 @@
+C:\New folder\GenericHostSample\bin\Debug\netcoreapp2.1\GenericHostSample.deps.json
+C:\New folder\GenericHostSample\bin\Debug\netcoreapp2.1\GenericHostSample.runtimeconfig.json
+C:\New folder\GenericHostSample\bin\Debug\netcoreapp2.1\GenericHostSample.runtimeconfig.dev.json
+C:\New folder\GenericHostSample\bin\Debug\netcoreapp2.1\GenericHostSample.dll
+C:\New folder\GenericHostSample\bin\Debug\netcoreapp2.1\GenericHostSample.pdb
+C:\New folder\GenericHostSample\obj\Debug\netcoreapp2.1\GenericHostSample.csprojAssemblyReference.cache
+C:\New folder\GenericHostSample\obj\Debug\netcoreapp2.1\GenericHostSample.csproj.CoreCompileInputs.cache
+C:\New folder\GenericHostSample\obj\Debug\netcoreapp2.1\GenericHostSample.AssemblyInfoInputs.cache
+C:\New folder\GenericHostSample\obj\Debug\netcoreapp2.1\GenericHostSample.AssemblyInfo.cs
+C:\New folder\GenericHostSample\obj\Debug\netcoreapp2.1\GenericHostSample.dll
+C:\New folder\GenericHostSample\obj\Debug\netcoreapp2.1\GenericHostSample.pdb
