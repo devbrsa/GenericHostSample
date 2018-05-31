@@ -7,6 +7,9 @@ using Microsoft.Extensions.Logging;
 
 namespace GenericHostSample
 {
+    using Microsoft.AspNetCore.Builder;
+    using Microsoft.AspNetCore.Http;
+
     public class Program
     {
         public static async Task Main(string[] args)
@@ -27,6 +30,14 @@ namespace GenericHostSample
                         $"appsettings.{hostContext.HostingEnvironment.EnvironmentName}.json", 
                         optional: true);
                     configApp.AddCommandLine(args);
+                })
+                .UseFakeServer()
+                .ConfigureWebHost((hostContext, app) =>
+                {
+                    app.Run(async (context) =>
+                    {
+                        await context.Response.WriteAsync("Hello World!");
+                    });
                 })
                 .ConfigureServices((hostContext, services) =>
                 {
